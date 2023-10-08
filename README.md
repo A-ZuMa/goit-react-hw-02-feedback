@@ -1,3 +1,11 @@
+# Модуль 2. Заняття 3. Події та стан. Форми.
+
+https://www.youtube.com/watch?v=HYdbvubNm8o
+
+# Модуль 2. Заняття 4. Події та стан. Форми.
+
+https://www.youtube.com/watch?v=hZJyEQTQMwM
+
 # React homework template
 
 Этот проект был создан при помощи
