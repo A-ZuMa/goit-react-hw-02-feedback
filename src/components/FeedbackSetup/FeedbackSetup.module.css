@@ -1,7 +1,7 @@
-.buttonsContainer {
-  display: flex;
-  justify-content: center;
-  column-gap: 10px;
+.btnContainer {
   margin-top: 20px;
   margin-bottom: 20px;
+  column-gap: 10px;
+  display: flex;
+  justify-content: center;
 }

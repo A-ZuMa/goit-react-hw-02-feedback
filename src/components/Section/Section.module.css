@@ -1,7 +1,11 @@
 .card {
-  width: 30%;
+  width: 25%;
   background: var(--white);
   margin: 0 auto;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+
+.mainText {
+  /* color: red; */
 }

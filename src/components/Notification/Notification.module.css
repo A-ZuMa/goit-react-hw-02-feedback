@@ -9,5 +9,6 @@
 
 .text {
   margin: 0;
-  color: var(--colorSecondary);
+  font-weight: 600;
+  color: red;
 }

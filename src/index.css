@@ -41,27 +41,61 @@ button {
   padding: 0;
 }
 
+.btn {
+  padding: 10px 15px;
+  margin-left: 15px;
+  border-radius: 15px;
+}
+
+.btn.main-btn {
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--colorPrimary);
+  width: 100px;
+  animation: mainBtnbounce 4s infinite;
+  cursor: pointer;
+}
+
+@keyframes mainBtnbounce {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1) rotate(0);
+  }
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
   object-fit: cover;
-}
-
-th,
-td {
-  padding: 10px 20px;
-  text-align: left;
-}
-
-tr:nth-child(even) {
-  background-color: var(--colorSecondary);
-}
-
-th {
-  background-color: var(--colorPrimary);
-  color: var(--white);
-  text-transform: uppercase;
 }
 
 input:focus,

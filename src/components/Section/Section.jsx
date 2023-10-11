@@ -1,8 +1,8 @@
-import css from './Section.module.css';
+import styles from './Section.module.css';
 
 export const Section = ({ title, children }) => (
-  <section className={css.card}>
-    <h2>{title}</h2>
+  <section className={styles.card}>
+    <h2 className={styles.mainText}>{title}</h2>
     {children}
   </section>
 );

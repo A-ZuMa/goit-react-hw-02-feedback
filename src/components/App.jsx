@@ -37,10 +37,9 @@ export class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
-    //console.log(this.state);
     return (
       <>
-        <Section title="Please leave feedback">
+        <Section title="Please leave your feedback">
           <FeedbackSetup
             options={Object.keys(this.state)}
             onLeaveFeedback={this.handleClick}

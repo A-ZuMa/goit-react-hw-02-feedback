@@ -1,9 +1,9 @@
-import css from './Notification.module.css';
+import styles from './Notification.module.css';
 
 export const Notification = ({ message }) => {
   return (
-    <div className={css.container}>
-      <p className={css.text}>{message}</p>
+    <div className={styles.container}>
+      <p className={styles.text}>{message}</p>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import css from './Statistics.module.css';
+import styles from './Statistics.module.css';
 
 export const Statistics = ({
   good,
@@ -8,23 +8,24 @@ export const Statistics = ({
   positivePercentage,
 }) => {
   return (
-    <div className={css.container}>
-      <h3 className={css.title}>Statistics</h3>
-      <p>
+    <div className={styles.container}>
+      <h3 className={styles.title}>Statistics</h3>
+      <div className={styles.resultContainer}>
+      <p  className={styles.statCountGood}>
         <strong>Good:</strong> {good}
       </p>
-      <p>
+      <p className={styles.statCountNeutral}>
         <strong>Neutral:</strong> {neutral}
       </p>
-      <p>
+      <p className={styles.statCountBad}>
         <strong>Bad:</strong> {bad}
-      </p>
-      <hr></hr>
+        </p>
+        </div>
       <p>
-        <strong className={css.underline}>Total:</strong> {total}
+        <strong className={styles.underline}>Total:</strong> {total}
       </p>
       <p>
-        <span className={css.underline}>Positive Feedback:</span>{' '}
+        <span className={styles.underline}>Positive Feedback:</span>{' '}
         {Math.ceil(positivePercentage)}%
       </p>
     </div>
